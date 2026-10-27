@@ -4,7 +4,7 @@
   "description": "про проект",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no testsdfsdfsfsd specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Fundorin174/code_project/issues"
   },
   "homepage": "https://github.com/Fundorin174/code_project#readme",
   "dependencies": {
     "lodash-es": "^4.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.9",
+    "@babel/preset-env": "^8.0.7",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2",
+    "jest-environment-jsdom": "^30.5.2"
   }
 }
